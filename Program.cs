@@ -17,10 +17,11 @@ namespace prac42
             Handler_II handler_2 = new Handler_II();
             //Счетчик
             counter.Count();
-            //События
+            //Добавляем действия в события
             counter.onCount += handler_1.Message;
             counter.onCount += handler_2.Message;
             counter.onCount += counter.Message;
+            //Вызов события
             counter.Count();
             Console.ReadLine();
         }
