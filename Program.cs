@@ -11,7 +11,7 @@ namespace prac42
     {
         static void Main(string[] args)
         {
-            //Создание объектов 
+            //Создание экземпляров классов 
             ClassCounter counter = new ClassCounter();
             Handler_I handler_1 = new Handler_I();
             Handler_II handler_2 = new Handler_II();
