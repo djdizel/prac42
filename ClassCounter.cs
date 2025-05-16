@@ -25,9 +25,13 @@ namespace prac42
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(i);
-                if ((i == 7) && (onCount != null))
+                //if ((i == 7) && (onCount != null))
+                //{
+                //    onCount();
+                //}
+                if ((i == 7))
                 {
-                    onCount();
+                    onCount?.Invoke();
                 }
             }
         }
