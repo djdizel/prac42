@@ -8,6 +8,9 @@ namespace prac42
 {
     class Handler_II
     {
+        /// <summary>
+        /// Метод для вывода сообщения
+        /// </summary>
         public void Message()
         {
             Console.WriteLine("Точно, уже 7!");

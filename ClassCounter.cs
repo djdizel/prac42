@@ -17,6 +17,9 @@ namespace prac42
         /// Событие onCount
         /// </summary>
         public event MethodContainer onCount;
+        /// <summary>
+        /// Метод для подсчета
+        /// </summary>
         public void Count()
         {
             for (int i = 0; i < 10; i++)
@@ -28,6 +31,9 @@ namespace prac42
                 }
             }
         }
+        /// <summary>
+        /// Метод для вывода сообщения 
+        /// </summary>
         public void Message()
         {
             Console.WriteLine("У себя 7!");
